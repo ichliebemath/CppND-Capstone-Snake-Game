@@ -1,12 +1,9 @@
 # CPPND: Capstone Snake Game Example
 
-This is a starter repo for the Capstone project in the [Udacity C++ Nanodegree Program](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213). The code for this repo was inspired by [this](https://codereview.stackexchange.com/questions/212296/snake-game-in-c-with-sdl) excellent StackOverflow post and set of responses.
+This is a forked repo for the Capstone project in the [Udacity C++ Nanodegree Program](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213). The code for this repo was inspired by [this](https://codereview.stackexchange.com/questions/212296/snake-game-in-c-with-sdl) excellent StackOverflow post and set of responses. Additional implementations are added to the original game to enrich more functionalities.
 
 <img src="snake_game.gif"/>
 
-The Capstone Project gives you a chance to integrate what you've learned throughout this program. This project will become an important part of your portfolio to share with current and future colleagues and employers.
-
-In this project, you can build your own C++ application or extend this Snake game, following the principles you have learned throughout this Nanodegree Program. This project will demonstrate that you can independently create applications using a wide range of C++ features.
 
 ## Dependencies for Running Locally
 * cmake >= 3.7
@@ -30,6 +27,19 @@ In this project, you can build your own C++ application or extend this Snake gam
 3. Compile: `cmake .. && make`
 4. Run it: `./SnakeGame`.
 
+## Additional Implementations
+
+1. Loops, Functions, I/O: The project accepts user input and processes the input. 
+   -> User name is required to start the game and is shown in the screen
+2. Object Oriented Programming: 
+   a. The project uses Object Oriented Programming techniques. 
+   b. Classes use appropriate access specifiers for class members.
+   c. Class constructors utilize member initialization lists.
+   d. Classes abstract implementation details from their interfaces.
+   e. Classes encapsulate behavior.
+   -> A new class **obstacle** is added to the game and kept updated during the running time.
+3. Memory Management: The project uses smart pointers instead of raw pointers. 
+   -> **obstacle** is used as shared_ptr in the running process
 
 ## CC Attribution-ShareAlike 4.0 International
 

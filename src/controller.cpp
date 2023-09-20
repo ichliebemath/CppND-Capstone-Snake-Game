@@ -2,6 +2,7 @@
 #include <iostream>
 #include "SDL.h"
 #include "snake.h"
+#include <mutex>
 
 void Controller::ChangeDirection(Snake &snake, Snake::Direction input,
                                  Snake::Direction opposite) const {
