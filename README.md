@@ -31,7 +31,7 @@ This is a forked repo for the Capstone project in the [Udacity C++ Nanodegree Pr
 
 1. **Loops, Functions, I/O:**
    - The project accepts user input and processes the input.
-   -> User name is required to start the game and is shown on the screen.
+   - -> User name is required to start the game and is shown on the screen.
 
 2. **Object Oriented Programming:**
    - The project uses Object Oriented Programming techniques.
@@ -39,11 +39,11 @@ This is a forked repo for the Capstone project in the [Udacity C++ Nanodegree Pr
    - Class constructors utilize member initialization lists.
    - Classes abstract implementation details from their interfaces.
    - Classes encapsulate behavior.
-   -> A new class **obstacle** is added to the game and kept updated during runtime.
+   - -> A new class **obstacle** is added to the game and kept updated during runtime.
 
 3. **Memory Management:**
    - The project uses smart pointers instead of raw pointers.
-   -> **obstacle** is used as a shared_ptr in the running process.
+   - -> **obstacle** is used as a shared_ptr in the running process.
 ## CC Attribution-ShareAlike 4.0 International
 
 
